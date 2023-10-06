@@ -1,0 +1,78 @@
+:root {
+    --grey: #616161;
+    --black: #2d3724;
+}
+body{
+    background-image: url(images/body.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.headimg {
+    height: 50px;
+    width: 50px;
+}
+
+header{
+    border-bottom: 2px dashed black;
+    
+}
+
+.tit {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+.hold {
+    width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: whitesmoke;
+    border: hidden;
+    border-radius: 5%;
+    
+    
+
+}
+ .hold:hover {
+    border-style: solid;
+    border-radius: 5%;
+    border-color: grey;
+ }
+
+ul {
+    width: 100px;
+    margin: auto;
+    text-align: left;
+
+    
+}
+
+footer{
+    height: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: repeating-linear-gradient(45deg,
+    var(--grey), var(--grey) 25px,
+    var(--black) 25px, var(--black) 50px
+  );
+  border-radius: 24px;
+    padding-top: 40px;
+}
+
+
+
