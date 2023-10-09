@@ -68,7 +68,7 @@ footer{
     text-align: center;
     background: repeating-linear-gradient(45deg,
     var(--grey), var(--grey) 25px,
-    var(--black) 25px, var(--black) 50px
+    var(--black) 50px, var(--black) 100px
   );
   border-radius: 24px;
     padding-top: 40px;
